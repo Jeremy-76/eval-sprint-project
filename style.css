@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.main-contain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.title{
+    width: 100%;
+    grid-area: 1/1/2/3;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    box-shadow: 0px 4px 8px #444;
+    font-size: 20px;
+}
+
+h1{
+    padding: 20px 0;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.explications{
+    width: 100%;
+    grid-area: 2/1/2/3;
+    background-color: #ddd;
+    color: #333;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 4px 8px grey;
+    z-index: -1;
+}
+
+/* GERMIGNON */
+
+.contain-dog{
+    grid-area: 3/1;
+}
+
+#image-dog{
+    width: 500px;
+    height: 500px;
+    background-image: url("https://pixabay.com/get/54e7dd464a55a814f6da8c7dda7936781d3adfe153556c4870267ad59048cc5ebc_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#bloc-1-dog{
+    grid-area: 1/1;
+    border: 1px solid black;
+}
+
+#bloc-2-dog{
+    grid-area: 1/2;
+    border: 1px solid black;
+}
+
+#bloc-3-dog{
+    grid-area: 1/3;
+    border: 1px solid black;
+}
+
+#bloc-4-dog{
+    grid-area: 2/1;
+    border: 1px solid black;
+}
+
+#bloc-5-dog{
+    grid-area: 2/2;
+    border: 1px solid black;
+}
+
+#bloc-6-dog{
+    grid-area: 2/3;
+    border: 1px solid black;
+}
+
+#bloc-7-dog{
+    grid-area: 3/1;
+    border: 1px solid black;
+}
+
+#bloc-8-dog{
+    grid-area: 3/2;
+    border: 1px solid black;
+}
+
+#bloc-9-dog{
+    grid-area: 3/3;
+    border: 1px solid black;
+}
+
+/* STITCH */
+
+.contain-cat{
+    grid-area: 3/2;
+}
+
+#image-cat{
+    width: 500px;
+    height: 500px;
+    background-image: url("https://pixabay.com/get/54e0dd404e5bae14f6da8c7dda7936781d3adfe153556c4870267ad59045cd5ebb_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#bloc-1-cat{
+    grid-area: 1/1;
+    border: 1px solid black;
+}
+
+#bloc-2-cat{
+    grid-area: 1/2;
+    border: 1px solid black;
+}
+
+#bloc-3-cat{
+    grid-area: 1/3;
+    border: 1px solid black;
+}
+
+#bloc-4-cat{
+    grid-area: 2/1;
+    border: 1px solid black;
+}
+
+#bloc-5-cat{
+    grid-area: 2/2;
+    border: 1px solid black;
+}
+
+#bloc-6-cat{
+    grid-area: 2/3;
+    border: 1px solid black;
+}
+
+#bloc-7-cat{
+    grid-area: 3/1;
+    border: 1px solid black;
+}
+
+#bloc-8-cat{
+    grid-area: 3/2;
+    border: 1px solid black;
+}
+
+#bloc-9-cat{
+    grid-area: 3/3;
+    border: 1px solid black;
+}
+
+/* BOUTONS */
+
+.contain-button{
+    text-align: center;
+    margin: 20px 0 100px 0;
+}
+
+.contain-button button{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+}
+
+h3{
+    width: 100%;
+    text-decoration: underline;
+    padding: 20px;
+    background-color: firebrick;
+    color: white;
+}
+
+.texte-reponse{
+    padding: 20px;
+}
+
+#reponse-dog, #reponse-cat, #reponse-bird, #reponse-fish{
+    margin: 10px;
+}
+
+#text-reponse-dog, #text-reponse-cat, #text-reponse-bird, #text-reponse-fish{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: none;
+    color: #333;
+}
+
+/* BIRD */
+
+.contain-bird{
+    grid-area: 4/1;
+}
+
+#image-bird{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://pixabay.com/get/54e2dc464e51ad14f6da8c7dda7936781d3adfe153556c4870267ad59e4cc358bb_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#bloc-1-bird{
+    grid-area: 1/1;
+    border: 1px solid black;
+}
+
+#bloc-2-bird{
+    grid-area: 1/2;
+    border: 1px solid black;
+}
+
+#bloc-3-bird{
+    grid-area: 1/3;
+    border: 1px solid black;
+
+}
+
+#bloc-4-bird{
+    grid-area: 2/1;
+    border: 1px solid black;
+}
+
+#bloc-5-bird{
+    grid-area: 2/2;
+    border: 1px solid black;
+}
+
+#bloc-6-bird{
+    grid-area: 2/3;
+    border: 1px solid black;
+}
+
+#bloc-7-bird{
+    grid-area: 3/1;
+    border: 1px solid black;
+}
+
+#bloc-8-bird{
+    grid-area: 3/2;
+    border: 1px solid black;
+}
+
+#bloc-9-bird{
+    grid-area: 3/3;
+    border: 1px solid black;
+}
+
+/* POISSON */
+
+.contain-fish{
+    grid-area: 4/2;
+}
+
+#image-fish{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://pixabay.com/get/57e9d1404d57a914f6da8c7dda7936781d3adfe153556c4870267ad59e44c350bb_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#bloc-1-fish{
+    grid-area: 1/1;
+    border: 1px solid black;
+}
+
+#bloc-2-fish{
+    grid-area: 1/2;
+    border: 1px solid black;
+}
+
+#bloc-3-fish{
+    grid-area: 1/3;
+    border: 1px solid black;
+
+}
+
+#bloc-4-fish{
+    grid-area: 2/1;
+    border: 1px solid black;
+}
+
+#bloc-5-fish{
+    grid-area: 2/2;
+    border: 1px solid black;
+}
+
+#bloc-6-fish{
+    grid-area: 2/3;
+    border: 1px solid black;
+}
+
+#bloc-7-fish{
+    grid-area: 3/1;
+    border: 1px solid black;
+}
+
+#bloc-8-fish{
+    grid-area: 3/2;
+    border: 1px solid black;
+}
+
+#bloc-9-fish{
+    grid-area: 3/3;
+    border: 1px solid black;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .main-contain{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title{
+        font-size: 20px;
+    }
+    
+    .explications{
+        font-size: 14px;
+    }
+  }
+
+.filter{
+    backdrop-filter:  blur(10px) grayscale(100%) invert(70%);
+}

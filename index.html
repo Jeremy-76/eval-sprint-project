@@ -1,0 +1,630 @@
+<html>
+   <head> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="title">
+            <h1>Cache-Cache</h1>
+        </div>
+        <div class="explications">
+            <p>Trouvez qui se cache derrière... Vous avez plusieurs indices à disposition. Chacun d'entre eux révèlera une case.<br>
+            Si vous êtes persuadés d'avoir trouvé qui se cache derrière ces cases, la réponse vous est proposé.<br>
+            Bonne chance !</p>
+        </div>
+        <div class="main-contain">
+            
+        <div class="contain-dog">
+            <div id="image-dog">
+                <div id="bloc-1-dog" class="filter"></div>
+                <div id="bloc-2-dog" class="filter"></div>
+                <div id="bloc-3-dog" class="filter"></div>
+                <div id="bloc-4-dog" class="filter"></div>
+                <div id="bloc-5-dog" class="filter"></div>
+                <div id="bloc-6-dog" class="filter"></div>
+                <div id="bloc-7-dog" class="filter"></div>
+                <div id="bloc-8-dog" class="filter"></div>
+                <div id="bloc-9-dog" class="filter"></div>
+            </div>
+
+            <div class="contain-button">
+                <button id="indice-1-dog">Indice</button>
+                <button id="indice-2-dog">Indice</button>
+                <button id="indice-3-dog">Indice</button>
+                <button id="indice-4-dog">Indice</button>
+                <button id="indice-5-dog">Indice</button>
+                <button id="indice-6-dog">Indice</button>
+                <button id="indice-7-dog">Indice</button>
+                <button id="indice-8-dog">Indice</button>
+                <button id="indice-9-dog">Indice</button><br>
+                <button id="reponse-dog">Réponse</button>
+                <div id="text-reponse-dog">
+                    <h3>Chien</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contain-cat">
+            <div id="image-cat">
+                <div id="bloc-1-cat" class="filter"></div>
+                <div id="bloc-2-cat" class="filter"></div>
+                <div id="bloc-3-cat" class="filter"></div>
+                <div id="bloc-4-cat" class="filter"></div>
+                <div id="bloc-5-cat" class="filter"></div>
+                <div id="bloc-6-cat" class="filter"></div>
+                <div id="bloc-7-cat" class="filter"></div>
+                <div id="bloc-8-cat" class="filter"></div>
+                <div id="bloc-9-cat" class="filter"></div>
+            </div>
+
+            <div class="contain-button">
+                <button id="indice-1-cat">Indice</button>
+                <button id="indice-2-cat">Indice</button>
+                <button id="indice-3-cat">Indice</button>
+                <button id="indice-4-cat">Indice</button>
+                <button id="indice-5-cat">Indice</button>
+                <button id="indice-6-cat">Indice</button>
+                <button id="indice-7-cat">Indice</button>
+                <button id="indice-8-cat">Indice</button>
+                <button id="indice-9-cat">Indice</button><br>
+                <button id="reponse-cat">Réponse</button>
+                <div id="text-reponse-cat">
+                    <h3>Chat</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contain-bird">
+            <div id="image-bird">
+                <div id="bloc-1-bird" class="filter"></div>
+                <div id="bloc-2-bird" class="filter"></div>
+                <div id="bloc-3-bird" class="filter"></div>
+                <div id="bloc-4-bird" class="filter"></div>
+                <div id="bloc-5-bird" class="filter"></div>
+                <div id="bloc-6-bird" class="filter"></div>
+                <div id="bloc-7-bird" class="filter"></div>
+                <div id="bloc-8-bird" class="filter"></div>
+                <div id="bloc-9-bird" class="filter"></div>
+            </div>
+
+            <div class="contain-button">
+                <button id="indice-1-bird">Indice</button>
+                <button id="indice-2-bird">Indice</button>
+                <button id="indice-3-bird">Indice</button>
+                <button id="indice-4-bird">Indice</button>
+                <button id="indice-5-bird">Indice</button>
+                <button id="indice-6-bird">Indice</button>
+                <button id="indice-7-bird">Indice</button>
+                <button id="indice-8-bird">Indice</button>
+                <button id="indice-9-bird">Indice</button><br>
+                <button id="reponse-bird">Réponse</button>
+                <div id="text-reponse-bird">
+                    <h3>Oiseau</h3>
+                </div>
+            </div>
+        </div>
+            
+            <div class="contain-fish">
+            <div id="image-fish">
+                <div id="bloc-1-fish" class="filter"></div>
+                <div id="bloc-2-fish" class="filter"></div>
+                <div id="bloc-3-fish" class="filter"></div>
+                <div id="bloc-4-fish" class="filter"></div>
+                <div id="bloc-5-fish" class="filter"></div>
+                <div id="bloc-6-fish" class="filter"></div>
+                <div id="bloc-7-fish" class="filter"></div>
+                <div id="bloc-8-fish" class="filter"></div>
+                <div id="bloc-9-fish" class="filter"></div>
+            </div>
+
+            <div class="contain-button">
+                <button id="indice-1-fish">Indice</button>
+                <button id="indice-2-fish">Indice</button>
+                <button id="indice-3-fish">Indice</button>
+                <button id="indice-4-fish">Indice</button>
+                <button id="indice-5-fish">Indice</button>
+                <button id="indice-6-fish">Indice</button>
+                <button id="indice-7-fish">Indice</button>
+                <button id="indice-8-fish">Indice</button>
+                <button id="indice-9-fish">Indice</button><br>
+                <button id="reponse-fish">Réponse</button>
+                <div id="text-reponse-fish">
+                    <h3>Poisson</h3>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        
+            let Apikey = "16851404-fe90a30a8bd07964b4bf40df0";
+            
+            
+            fetch("https://pixabay.com/api/?key=16851404-fe90a30a8bd07964b4bf40df0&q=dog&image_type=photo")
+           .then(response => response.json())
+           .then((response) => {
+               // Code éxécuté quand vous recevez la réponse
+               console.log(response);
+                
+                /* Récupérer contenu de large image url */
+                let imageBloc = response.hits[1].pageURL;
+                console.log(imageBloc);
+                /* Modifier background-image par contenu de large image url */
+                document.getElementById ( 'image-dog' ) .style.backgroundImage =  'url (https://pixabay.com/get/54e7dd464a55a814f6da8c7dda7936781d3adfe153556c4870267ad59048cc5ebc_1280.jpg)';
+            
+            })
+            .catch(error => alert("Erreur : " + error));
+        
+        
+        
+        let indice1Dog = document.getElementById("indice-1-dog");
+        let indice2Dog = document.getElementById("indice-2-dog");
+        let indice3Dog = document.getElementById("indice-3-dog");
+        let indice4Dog = document.getElementById("indice-4-dog");
+        let indice5Dog = document.getElementById("indice-5-dog");
+        let indice6Dog = document.getElementById("indice-6-dog");
+        let indice7Dog = document.getElementById("indice-7-dog");
+        let indice8Dog = document.getElementById("indice-8-dog");
+        let indice9Dog = document.getElementById("indice-9-dog");
+        
+        let bloc6Dog = document.getElementById("bloc-6-dog");
+        let bloc4Dog = document.getElementById("bloc-4-dog");
+        let bloc1Dog = document.getElementById("bloc-1-dog");
+        let bloc8Dog = document.getElementById("bloc-8-dog");
+        let bloc5Dog = document.getElementById("bloc-5-dog");
+        let bloc2Dog = document.getElementById("bloc-2-dog");
+        let bloc9Dog = document.getElementById("bloc-9-dog");
+        let bloc3Dog = document.getElementById("bloc-3-dog");
+        let bloc7Dog = document.getElementById("bloc-7-dog");
+        
+        let reponseDog = document.getElementById("reponse-dog");
+        let texteReponseDog = document.getElementById("text-reponse-dog");
+        
+            indice1Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc6Dog).display != "none"){
+                bloc6Dog.style.display = "none";
+              } else {
+                bloc6Dog.style.display = "block";
+              }
+            });
+            
+            indice2Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc4Dog).display != "none"){
+                bloc4Dog.style.display = "none";
+              } else {
+                bloc4Dog.style.display = "block";
+              }
+            });
+        
+            indice3Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc1Dog).display != "none"){
+                bloc1Dog.style.display = "none";
+              } else {
+                bloc1Dog.style.display = "block";
+              }
+            });
+        
+            indice4Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc8Dog).display != "none"){
+                bloc8Dog.style.display = "none";
+              } else {
+                bloc8Dog.style.display = "block";
+              }
+            });
+        
+            indice5Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc5Dog).display != "none"){
+                bloc5Dog.style.display = "none";
+              } else {
+                bloc5Dog.style.display = "block";
+              }
+            });
+        
+            indice6Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc2Dog).display != "none"){
+                bloc2Dog.style.display = "none";
+              } else {
+                bloc2Dog.style.display = "block";
+              }
+            });
+        
+            indice7Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc9Dog).display != "none"){
+                bloc9Dog.style.display = "none";
+              } else {
+                bloc9Dog.style.display = "block";
+              }
+            });
+        
+            indice8Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc3Dog).display != "none"){
+                bloc3Dog.style.display = "none";
+              } else {
+                bloc3Dog.style.display = "block";
+              }
+            });
+        
+            indice9Dog.addEventListener("click", () => {
+              if(getComputedStyle(bloc7Dog).display != "none"){
+                bloc7Dog.style.display = "none";
+              } else {
+                bloc7Dog.style.display = "block";
+              }
+            });
+        
+            reponseDog.addEventListener("click", () => {
+              if(getComputedStyle(texteReponseDog).display != "none"){
+                texteReponseDog.style.display = "none";
+              } else {
+                texteReponseDog.style.display = "block";
+              }
+            });
+        
+        
+        fetch("https://pixabay.com/api/?key=16851404-fe90a30a8bd07964b4bf40df0&q=cat&image_type=photo")
+           .then(response => response.json())
+           .then((response) => {
+               // Code éxécuté quand vous recevez la réponse
+               console.log(response);
+                
+                /* Récupérer contenu de large image url */
+                let imageBloc = response.hits[1].pageURL;
+                console.log(imageBloc);
+                /* Modifier background-image par contenu de large image url */
+                document.getElementById ( 'image-cat' ) .style.backgroundImage =  'url (https://pixabay.com/get/54e0dd404e5bae14f6da8c7dda7936781d3adfe153556c4870267ad59045cd5ebb_1280.jpg)';
+            
+            })
+            .catch(error => alert("Erreur : " + error));
+        
+        let indice1Cat = document.getElementById("indice-1-cat");
+        let indice2Cat = document.getElementById("indice-2-cat");
+        let indice3Cat = document.getElementById("indice-3-cat");
+        let indice4Cat = document.getElementById("indice-4-cat");
+        let indice5Cat = document.getElementById("indice-5-cat");
+        let indice6Cat = document.getElementById("indice-6-cat");
+        let indice7Cat = document.getElementById("indice-7-cat");
+        let indice8Cat = document.getElementById("indice-8-cat");
+        let indice9Cat = document.getElementById("indice-9-cat");
+        
+        let bloc6Cat = document.getElementById("bloc-6-cat");
+        let bloc4Cat = document.getElementById("bloc-4-cat");
+        let bloc1Cat = document.getElementById("bloc-1-cat");
+        let bloc8Cat = document.getElementById("bloc-8-cat");
+        let bloc5Cat = document.getElementById("bloc-5-cat");
+        let bloc2Cat = document.getElementById("bloc-2-cat");
+        let bloc9Cat = document.getElementById("bloc-9-cat");
+        let bloc3Cat = document.getElementById("bloc-3-cat");
+        let bloc7Cat = document.getElementById("bloc-7-cat");
+        
+        let reponseCat = document.getElementById("reponse-cat");
+        let texteReponseCat = document.getElementById("text-reponse-cat");
+        
+            indice1Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc6Cat).display != "none"){
+                bloc6Cat.style.display = "none";
+              } else {
+                bloc6Cat.style.display = "block";
+              }
+            });
+            
+            indice2Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc4Cat).display != "none"){
+                bloc4Cat.style.display = "none";
+              } else {
+                bloc4Cat.style.display = "block";
+              }
+            });
+        
+            indice3Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc1Cat).display != "none"){
+                bloc1Cat.style.display = "none";
+              } else {
+                bloc1Cat.style.display = "block";
+              }
+            });
+        
+            indice4Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc8Cat).display != "none"){
+                bloc8Cat.style.display = "none";
+              } else {
+                bloc8Cat.style.display = "block";
+              }
+            });
+        
+            indice5Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc5Cat).display != "none"){
+                bloc5Cat.style.display = "none";
+              } else {
+                bloc5Cat.style.display = "block";
+              }
+            });
+        
+            indice6Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc2Cat).display != "none"){
+                bloc2Cat.style.display = "none";
+              } else {
+                bloc2Cat.style.display = "block";
+              }
+            });
+        
+            indice7Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc9Cat).display != "none"){
+                bloc9Cat.style.display = "none";
+              } else {
+                bloc9Cat.style.display = "block";
+              }
+            });
+        
+            indice8Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc3Cat).display != "none"){
+                bloc3Cat.style.display = "none";
+              } else {
+                bloc3Cat.style.display = "block";
+              }
+            });
+        
+            indice9Cat.addEventListener("click", () => {
+              if(getComputedStyle(bloc7Cat).display != "none"){
+                bloc7Cat.style.display = "none";
+              } else {
+                bloc7Cat.style.display = "block";
+              }
+            });
+        
+            reponseCat.addEventListener("click", () => {
+              if(getComputedStyle(texteReponseCat).display != "none"){
+                texteReponseCat.style.display = "none";
+              } else {
+                texteReponseCat.style.display = "block";
+              }
+            });
+        
+        
+        fetch("https://pixabay.com/api/?key=16851404-fe90a30a8bd07964b4bf40df0&q=bird&image_type=photo")
+           .then(response => response.json())
+           .then((response) => {
+               // Code éxécuté quand vous recevez la réponse
+               console.log(response);
+                
+                /* Récupérer contenu de large image url */
+                let imageBloc = response.hits[1].pageURL;
+                console.log(imageBloc);
+                /* Modifier background-image par contenu de large image url */
+                document.getElementById ( 'image-bird' ) .style.backgroundImage =  'url (https://pixabay.com/get/54e2dc464e51ad14f6da8c7dda7936781d3adfe153556c4870267ad59e4cc358bb_1280.jpg)';
+            
+            })
+            .catch(error => alert("Erreur : " + error));
+        
+        let indice1Bird = document.getElementById("indice-1-bird");
+        let indice2Bird = document.getElementById("indice-2-bird");
+        let indice3Bird = document.getElementById("indice-3-bird");
+        let indice4Bird = document.getElementById("indice-4-bird");
+        let indice5Bird = document.getElementById("indice-5-bird");
+        let indice6Bird = document.getElementById("indice-6-bird");
+        let indice7Bird = document.getElementById("indice-7-bird");
+        let indice8Bird = document.getElementById("indice-8-bird");
+        let indice9Bird = document.getElementById("indice-9-bird");
+        
+        let bloc6Bird = document.getElementById("bloc-6-bird");
+        let bloc4Bird = document.getElementById("bloc-4-bird");
+        let bloc1Bird = document.getElementById("bloc-1-bird");
+        let bloc8Bird = document.getElementById("bloc-8-bird");
+        let bloc5Bird = document.getElementById("bloc-5-bird");
+        let bloc2Bird = document.getElementById("bloc-2-bird");
+        let bloc9Bird = document.getElementById("bloc-9-bird");
+        let bloc3Bird = document.getElementById("bloc-3-bird");
+        let bloc7Bird = document.getElementById("bloc-7-bird");
+        
+        let reponseBird = document.getElementById("reponse-bird");
+        let texteReponseBird = document.getElementById("text-reponse-bird");
+        
+            indice1Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc6Bird).display != "none"){
+                bloc6Bird.style.display = "none";
+              } else {
+                bloc6Bird.style.display = "block";
+              }
+            });
+            
+            indice2Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc4Bird).display != "none"){
+                bloc4Bird.style.display = "none";
+              } else {
+                bloc4Bird.style.display = "block";
+              }
+            });
+        
+            indice3Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc1Bird).display != "none"){
+                bloc1Bird.style.display = "none";
+              } else {
+                bloc1Bird.style.display = "block";
+              }
+            });
+        
+            indice4Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc8Bird).display != "none"){
+                bloc8Bird.style.display = "none";
+              } else {
+                bloc8Bird.style.display = "block";
+              }
+            });
+        
+            indice5Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc5Bird).display != "none"){
+                bloc5Bird.style.display = "none";
+              } else {
+                bloc5Bird.style.display = "block";
+              }
+            });
+        
+            indice6Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc2Bird).display != "none"){
+                bloc2Bird.style.display = "none";
+              } else {
+                bloc2Bird.style.display = "block";
+              }
+            });
+        
+            indice7Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc9Bird).display != "none"){
+                bloc9Bird.style.display = "none";
+              } else {
+                bloc9Bird.style.display = "block";
+              }
+            });
+        
+            indice8Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc3Bird).display != "none"){
+                bloc3Bird.style.display = "none";
+              } else {
+                bloc3Bird.style.display = "block";
+              }
+            });
+        
+            indice9Bird.addEventListener("click", () => {
+              if(getComputedStyle(bloc7Bird).display != "none"){
+                bloc7Bird.style.display = "none";
+              } else {
+                bloc7Bird.style.display = "block";
+              }
+            });
+        
+            reponseBird.addEventListener("click", () => {
+              if(getComputedStyle(texteReponseBird).display != "none"){
+                texteReponseBird.style.display = "none";
+              } else {
+                texteReponseBird.style.display = "block";
+              }
+            });
+        
+        
+            fetch("https://pixabay.com/api/?key=16851404-fe90a30a8bd07964b4bf40df0&q=fish&image_type=photo")
+           .then(response => response.json())
+           .then((response) => {
+               // Code éxécuté quand vous recevez la réponse
+               console.log(response);
+                
+                /* Récupérer contenu de large image url */
+                let imageBloc = response.hits[1].pageURL;
+                console.log(imageBloc);
+                /* Modifier background-image par contenu de large image url */
+                document.getElementById ( 'image-fish' ) .style.backgroundImage =  'url ("https://pixabay.com/get/57e9d1404d57a914f6da8c7dda7936781d3adfe153556c4870267ad59e44c350bb_1280.jpg")';
+            
+            })
+            .catch(error => alert("Erreur : " + error));
+        
+        
+        
+        let indice1Fish = document.getElementById("indice-1-fish");
+        let indice2Fish = document.getElementById("indice-2-fish");
+        let indice3Fish = document.getElementById("indice-3-fish");
+        let indice4Fish = document.getElementById("indice-4-fish");
+        let indice5Fish = document.getElementById("indice-5-fish");
+        let indice6Fish = document.getElementById("indice-6-fish");
+        let indice7Fish = document.getElementById("indice-7-fish");
+        let indice8Fish = document.getElementById("indice-8-fish");
+        let indice9Fish = document.getElementById("indice-9-fish");
+        
+        let bloc6Fish = document.getElementById("bloc-6-fish");
+        let bloc4Fish = document.getElementById("bloc-4-fish");
+        let bloc1Fish = document.getElementById("bloc-1-fish");
+        let bloc8Fish = document.getElementById("bloc-8-fish");
+        let bloc5Fish = document.getElementById("bloc-5-fish");
+        let bloc2Fish = document.getElementById("bloc-2-fish");
+        let bloc9Fish = document.getElementById("bloc-9-fish");
+        let bloc3Fish = document.getElementById("bloc-3-fish");
+        let bloc7Fish = document.getElementById("bloc-7-fish");
+        
+        let reponseFish = document.getElementById("reponse-fish");
+        let texteReponseFish = document.getElementById("text-reponse-fish");
+        
+            indice1Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc6Fish).display != "none"){
+                bloc6Fish.style.display = "none";
+              } else {
+                bloc6Fish.style.display = "block";
+              }
+            });
+            
+            indice2Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc4Fish).display != "none"){
+                bloc4Fish.style.display = "none";
+              } else {
+                bloc4Fish.style.display = "block";
+              }
+            });
+        
+            indice3Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc1Fish).display != "none"){
+                bloc1Fish.style.display = "none";
+              } else {
+                bloc1Fish.style.display = "block";
+              }
+            });
+        
+            indice4Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc8Fish).display != "none"){
+                bloc8Fish.style.display = "none";
+              } else {
+                bloc8Fish.style.display = "block";
+              }
+            });
+        
+            indice5Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc5Fish).display != "none"){
+                bloc5Fish.style.display = "none";
+              } else {
+                bloc5Fish.style.display = "block";
+              }
+            });
+        
+            indice6Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc2Fish).display != "none"){
+                bloc2Fish.style.display = "none";
+              } else {
+                bloc2Fish.style.display = "block";
+              }
+            });
+        
+            indice7Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc9Fish).display != "none"){
+                bloc9Fish.style.display = "none";
+              } else {
+                bloc9Fish.style.display = "block";
+              }
+            });
+        
+            indice8Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc3Fish).display != "none"){
+                bloc3Fish.style.display = "none";
+              } else {
+                bloc3Fish.style.display = "block";
+              }
+            });
+        
+            indice9Fish.addEventListener("click", () => {
+              if(getComputedStyle(bloc7Fish).display != "none"){
+                bloc7Fish.style.display = "none";
+              } else {
+                bloc7Fish.style.display = "block";
+              }
+            });
+        
+            reponseFish.addEventListener("click", () => {
+              if(getComputedStyle(texteReponseFish).display != "none"){
+                texteReponseFish.style.display = "none";
+              } else {
+                texteReponseFish.style.display = "block";
+              }
+            });
+    </script>
+</html>
