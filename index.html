@@ -36,6 +36,10 @@
                 <button id="indice-7-dog">Indice</button>
                 <button id="indice-8-dog">Indice</button>
                 <button id="indice-9-dog">Indice</button><br>
+                
+                <input type="text" name="nom" value="" id="responseBlocDog">
+                <button id="valide" value="Valider" onclick="valide1()">Valider</button><br>
+                
                 <button id="reponse-dog">Réponse</button>
                 <div id="text-reponse-dog">
                     <h3>Chien</h3>
@@ -66,6 +70,10 @@
                 <button id="indice-7-cat">Indice</button>
                 <button id="indice-8-cat">Indice</button>
                 <button id="indice-9-cat">Indice</button><br>
+                
+                <input type="text" name="nom" value="" id="responseBlocCat">
+                <button id="valide" value="Valider" onclick="valide2()">Valider</button><br>
+                
                 <button id="reponse-cat">Réponse</button>
                 <div id="text-reponse-cat">
                     <h3>Chat</h3>
@@ -96,6 +104,10 @@
                 <button id="indice-7-bird">Indice</button>
                 <button id="indice-8-bird">Indice</button>
                 <button id="indice-9-bird">Indice</button><br>
+                
+                <input type="text" name="nom" value="" id="responseBlocBird">
+                <button id="valide" value="Valider" onclick="valide3()">Valider</button><br>
+                
                 <button id="reponse-bird">Réponse</button>
                 <div id="text-reponse-bird">
                     <h3>Oiseau</h3>
@@ -126,6 +138,10 @@
                 <button id="indice-7-fish">Indice</button>
                 <button id="indice-8-fish">Indice</button>
                 <button id="indice-9-fish">Indice</button><br>
+                
+                <input type="text" name="nom" value="" id="responseBlocFish">
+                <button id="valide" value="Valider" onclick="valide4()">Valider</button><br>
+                
                 <button id="reponse-fish">Réponse</button>
                 <div id="text-reponse-fish">
                     <h3>Poisson</h3>
@@ -260,6 +276,17 @@
               }
             });
         
+            let responseBlocDog = document.getElementById('responseBlocDog');
+
+            function valide1(){
+                //alert('It\'s so good !');
+                    if(responseBlocDog.value == "chien"){
+                        alert("Bravo, c'est la bonne réponse !");
+                    }else{
+                        alert("Retentes ta chance !");
+                    }
+                }
+        
             reponseDog.addEventListener("click", () => {
               if(getComputedStyle(texteReponseDog).display != "none"){
                 texteReponseDog.style.display = "none";
@@ -379,6 +406,17 @@
               }
             });
         
+            let responseBlocCat = document.getElementById('responseBlocCat');
+
+            function valide2(){
+                //alert('It\'s so good !');
+                    if(responseBlocCat.value == "chat"){
+                        alert("Bravo, c'est la bonne réponse !");
+                    }else{
+                        alert("Retentes ta chance !");
+                    }
+                }
+        
             reponseCat.addEventListener("click", () => {
               if(getComputedStyle(texteReponseCat).display != "none"){
                 texteReponseCat.style.display = "none";
@@ -497,6 +535,17 @@
                 bloc7Bird.style.display = "block";
               }
             });
+        
+            let responseBlocBird = document.getElementById('responseBlocBird');
+
+            function valide3(){
+                //alert('It\'s so good !');
+                    if(responseBlocBird.value == "oiseau"){
+                        alert("Bravo, c'est la bonne réponse !");
+                    }else{
+                        alert("Retentes ta chance !");
+                    }
+                }
         
             reponseBird.addEventListener("click", () => {
               if(getComputedStyle(texteReponseBird).display != "none"){
@@ -618,6 +667,17 @@
                 bloc7Fish.style.display = "block";
               }
             });
+        
+        let responseBlocFish = document.getElementById('responseBlocFish');
+
+            function valide4(){
+                //alert('It\'s so good !');
+                    if(responseBlocFish.value == "poisson"){
+                        alert("Bravo, c'est la bonne réponse !");
+                    }else{
+                        alert("Retentes ta chance !");
+                    }
+                }
         
             reponseFish.addEventListener("click", () => {
               if(getComputedStyle(texteReponseFish).display != "none"){
